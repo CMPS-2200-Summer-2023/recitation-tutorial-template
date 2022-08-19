@@ -36,7 +36,7 @@ This lab is a tutorial to get you initiated in the workflow we will be using to 
 ![Github Tests Feedback](./images/github-tests.png)
 If any of your tests are not passing you will see an "X'. You can click on the checkmark or the X for more details.
 
-5. Finally, go to the canvas assignment for this recitation and submit a link to this repository so that we can grade your work and you get your hard-earned points.
+5. Finally, go to the canvas assignment for this recitation and submit a link to this repository so that we can grade your work and you get your hard-earned points!
 
     Once you've done this, you are done! You are now have the tools and workflow to complete all recitations and assignments this semester.
 
