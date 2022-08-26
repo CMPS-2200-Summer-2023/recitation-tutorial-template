@@ -14,13 +14,16 @@ This lab is a tutorial to get you initiated in the workflow we will be using to 
   
       The files will be downloaded and placed in a directory in your present working directory. 
 2. Implement the `sum_of_squares` function in `main.py`, and confirm that the provided test function `test_one` passes on your computer.
-    - You can run the tests locally using `pytest`. To install `pytest`, on your terminal:
+    - You can run the tests using `pytest`. If you need to, install `pytest`. On your terminal:
       + `$ pip3 install pytest`
-    - It's usually best to run only one test at a time. To run tests, from the command-line:
-      + `$ pytest main.py` will run all tests in main.py
-      + `$ pytest main.py::test_one` will just run `test_one`
-    - This is exactly how GitHub will test your code.
-    - If you want to run your whole program, make sure to use `python3`. `python` might still default to python version 2.
+      + You may also have to install other python modules such as `tabulate` or other imported modules as you work through these recitations.
+    - It's usually best to run only one test at a time. To run tests, from the command-line, execute:
+      + `$ pytest main.py` to run all tests
+      + `$ pytest main.py::test_one` to just run `test_one`
+      + If you are having trouble with your computer finding pytest after you've installed it, you can run it as follows:
+        + `$ python -m pytest main.py`
+      + GitHub will test your code using `pytest`.
+    - If your `python` is still defaulting to python version 2, explicitly use the `python3` executable instead. 
 3. `Add`, `commit`, and `push` your completed lab back up to GitHub. 
     - You will need to issue `git add` for all files that you have modified. For this test lab, that should only be `main.py`, but for regular labs, they can also include an `answers.md` for written answers (and possibly other files as well).
     - Here are the commands for adding, commiting, and pushing main.py to GitHub. In the same directory as your cloned lab:
